@@ -27,22 +27,22 @@
             {
                 if(empty($_POST["numero"]))
                 {
-                    $msg[0] = "Preencha o número do quarto";
+                    $msg[0] = "<p class='erro'>Preencha o numero do quarto</p>";
                     $e = true;
                 }
                 if(empty ($_POST["andar"]))
                 {
-                    $msg[1] = "Preencha o andar do quarto";
+                    $msg[1] = "<p class='erro'>Preencha o andar do quarto</p>";
                     $e = true;
                 }
                 if(empty ($_POST["tipo"]))
                 {
-                    $msg[2] = "Selecione o tipo de quarto";
+                    $msg[2] = "<p class='erro'>Selecione o tipo de quarto</p>";
                     $e = true;
                 }
                 if(empty ($_POST["hotel"]))
                 {
-                    $msg[3] = "Selecione o hotel";
+                    $msg[3] = "<p class='erro'>Selecione o hotel</p>";
                     $e = true;
                 }
                 if(!$e)
