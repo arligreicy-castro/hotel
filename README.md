@@ -1,14 +1,15 @@
-##	Desenvolva orientado a objeto e utilizando os padrões de projeto DAO e MVC:
---	Crie um menu, contendo os links “Quarto”, “Listar Reservas” e “Mostrar Reservas por mês” utilizando padrão de projeto composite;
+## Desenvolva orientado a objeto e utilizando os padrões de projeto DAO e MVC:
+#
+Crie um menu, contendo os links “Quarto”, “Listar Reservas” e “Mostrar Reservas por mês” utilizando padrão de projeto composite;
 
---	Ao clicar no menu “Quarto” apresentar uma interface para cadastrar um quarto no Banco de Dados, layout livre 
+-	Ao clicar no menu “Quarto” apresentar uma interface para cadastrar um quarto no Banco de Dados, layout livre 
 
---	Ao clicar no link “Listar Reservas”, deverá gerar um pdf layout livre, mas minimamente deverá ter nome do hotel, todos os dados do quarto, inclusive o tipo  e os dados da reserva. 
+- Ao clicar no link “Listar Reservas”, deverá gerar um pdf layout livre, mas minimamente deverá ter nome do hotel, todos os dados do quarto, inclusive o tipo  e os dados da reserva. 
 
---	Ao clicar no link “Mostrar Reservas por mês” deverá gerar um gráfico de barras com a quantidade de reservas por mês do ano de 2024 (corrente). A legenda são os meses.
+-	Ao clicar no link “Mostrar Reservas por mês” deverá gerar um gráfico de barras com a quantidade de reservas por mês do ano de 2024 (corrente). A legenda são os meses.
+#
 
-
-OBSERVAÇÕES:
+## OBSERVAÇÕES:
 
 •	Não criar nenhuma outra interface além das citadas acima;
 
