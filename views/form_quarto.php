@@ -9,8 +9,7 @@
     <form action="" method="post">
         <label for="numero"><br>
         Número :
-        <input type="text" name="numero" id="numero" value='
-        <?php echo !empty($_POST['numero']) ? $_POST['numero'] : "" ?>'>
+        <input type="text" name="numero" id="numero" value='<?php echo !empty($_POST['numero']) ? $_POST['numero']:"" ?>'>
         <br>
         </label>
         <div>
@@ -19,8 +18,7 @@
 
         <label for="andar"><br>
         Andar :
-        <input type="number" name="andar" id="andar"  min="0" max="99999" value='
-        <?php echo !empty($_POST['andar']) ? $_POST['andar'] : "" ?>'>
+        <input type="number" name="andar" id="andar"  min="0" max="99999" value='<?php echo !empty($_POST['andar']) ? $_POST['andar'] : "" ?>'>
         <br>
         </label>
         <div>

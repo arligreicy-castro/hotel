@@ -1,10 +1,10 @@
-var url = "http://localhost/host/index.php?controller=reserva&method=buscarDadosReservas";
+var url = "http://localhost/hotel/index.php?controller=reserva&method=buscarDadosReservas";
 fetch(url)
 .then((response)=>{
     return response.json();
 })
 .then ((data)=>{
-    //console.log(data);
+    console.log(data);
     gerarGrafico(data);
 })
 .catch ((error)=>{
